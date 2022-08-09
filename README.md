@@ -51,16 +51,20 @@
     ``` bash
     git fetch origin branch_name
     ``` 
-8. 拉取同时合并某一分支最新代码
+8. 同步某分支远程代码到本地分支
+    ``` bash
+    git checkout --track origin/branch_name
+    ```
+9. 拉取同时合并某一分支最新代码
     ``` bash
     git pull origin branch_name
     ```
-9. 代码合并
+10. 代码合并
     ``` bash
     git merge
     ```
     使用VSCode或GitKraken检查合并冲突代码
-10. 远程仓库相关内容
+11. 远程仓库相关内容
     * 添加远程仓库关联到本地仓库
     ``` bash
     git remote add short_name url
