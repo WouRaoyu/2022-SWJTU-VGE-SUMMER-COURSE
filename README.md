@@ -61,7 +61,7 @@
     ```
 10. 代码合并
     ``` bash
-    git merge
+    git merge branch_name
     ```
     使用VSCode或GitKraken检查合并冲突代码
 11. 远程仓库相关内容
