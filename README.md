@@ -177,9 +177,13 @@
     ``` bash
     conda remove libname
     ```
-5. 创建新的环境
+5. 创建新的环境-没有配置文件
     ``` bash
-    conda env create envname
+    conda create -n envname
+    ```
+6. 查看已创建的所有环境
+    ``` bash
+    conda env list
     ```
 6. 使用配置文件创建环境，新建file_name.yml文件，内容组织如下
     ``` yml
@@ -210,6 +214,10 @@
 ### 1.4 常用ide简单介绍及插件配置
 1. 微软[Visual Studio](https://visualstudio.microsoft.com/)，主要用于C系列语言的开发，功能强大开箱即用，不依赖插件
 2. 微软[Visual Studio Code](https://code.visualstudio.com/)，本身是文本编辑器，但插件非常丰富，支持各种语言，大量功能可以通过配置插件实现，如各类型语言语法高亮，配置编译环境, 可以在左侧边栏搜索并在线安装
+    * 快捷键Ctrl + / -> 注释
+    * 快捷键Ctrl + Shift + P -> 快捷指令搜索面板
+    * 快捷键Ctrl + P -> 工程文件搜索
+    * 快捷键Ctrl + F -> 文本字符串搜索 
 3. 谷歌[Android Studio](https://developer.android.com/studio)，主要用于移动端Android系统软件的开发
 4. Jetbrains[PyCharm](https://www.jetbrains.com/pycharm/)，主要用于Python的开发，功能强大开箱即用，不依赖插件
 
